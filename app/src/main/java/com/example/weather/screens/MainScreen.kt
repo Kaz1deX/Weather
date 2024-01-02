@@ -168,6 +168,7 @@ fun TabLayout() {
                     })
             }
         }
+
         HorizontalPager(
             count = tabList.size,
             state = pagerState,
